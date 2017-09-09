@@ -2,7 +2,7 @@ select
 	cntrycode,
 	count(*) as numcust,
 	sum(c_acctbal) as totacctbal
-from (
+from	(
 	select
 		substring(c_phone from 1 for 2) as cntrycode,
 		c_acctbal
