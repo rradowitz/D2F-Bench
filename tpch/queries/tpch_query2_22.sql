@@ -23,7 +23,7 @@ from	(
 		)
 		and not exists (
 			select
-				*
+				o_custkey
 			from
 				orders
 			where
