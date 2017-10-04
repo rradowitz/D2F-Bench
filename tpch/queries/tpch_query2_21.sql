@@ -1,6 +1,6 @@
 select
 	s_name,
-	count(*) as numwait
+	count(1) as numwait
 from
 	supplier,
 	lineitem l1,

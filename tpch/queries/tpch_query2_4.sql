@@ -1,6 +1,6 @@
 select
   o_orderpriority,
-  count(*) as order_count
+  count(1) as order_count
 from
   orders
 where
